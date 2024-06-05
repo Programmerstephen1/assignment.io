@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h2>Deems Music x Electronics Shop</h2>
+            <nav>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Discover Your Rhythm with Deems Music</h1>
+            <p>Explore a wide range of musical instruments, electronics, and accessories.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="electricguitar.jpg" alt="Product 1">
+                    <h3>Electric Guitar</h3>
+                    <p>High-quality electric guitar for professional musicians.</p>
+                    <span class="price">ksh15,000</span>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="download (12).jpeg" alt="Product 2">
+                    <h3>Wireless Headphones</h3>
+                    <p>Premium wireless headphones with noise cancellation.</p>
+                    <span class="price">ksh2,500</span>
+                    <input type="number" id="quantity1" name="quantity" min="1" value="1">
+            <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                 <!-- product 3 -->
+                <div class="product">
+                    <img src="download (11).jpeg" alt="Product 3">
+                    <h3>Wireless Headphones</h3>
+                    <p>Ultra bass JBL-wireless headphones</p>
+                    <span class="price">ksh1,500</span>
+                    <input type="number" id="quantity2" name="quantity" min="1" value="1">
+            <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                       <!-- product 4 -->
+                       <div class="product">
+                        <img src="download.jpeg" alt="Product 4">
+                        <h3>Tama snare drum 14"</h3>
+                        <p>with custom skin membrane.</p>
+                        <span class="price">ksh12,000</span>
+                        <input type="number" id="quantity3" name="quantity" min="1" value="1">
+            <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                           <!-- product 5 -->
+                <div class="product">
+                    <img src="download (1).webp" alt="Product 5">
+                    <h3>jack cables with specon</h3>
+                    <p>pre-installed 3-phase speckon.</p>
+                    <span class="price">ksh1999</span>
+                    <input type="number" id="quantity4" name="quantity" min="1" value="1">
+            <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                       <!-- product 6 -->
+                       <div class="product">
+                        <img src="download (13).jpeg" alt="Product 6">
+                        <h3>generic jackpin audio cable</h3>
+                        <p>imported.</p>
+                        <span class="price">ksh999</span>
+                        <input type="number" id="quantity5" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                           <!-- product 7 -->
+                <div class="product">
+                    <img src="download (15).jpeg" alt="Product 7">
+                    <h3>metallor tuning peg complete pack</h3>
+                    <p>alluminium 6-pack tuning pegs.</p>
+                    <span class="price">ksh699</span>
+                    <input type="number" id="quantity6" name="quantity" min="1" value="1">
+                    <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                       <!-- product 8 -->
+                       <div class="product">
+                        <img src="download (4).jpeg" alt="Product 8">
+                        <h3>yamaha piano SX-900</h3>
+                        <p>with bluetoth,touchpad,dual usb port and bluetooth.</p>
+                        <span class="price">ksh90,000</span>
+                        <input type="number" id="quantity7" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                           <!-- product 9 -->
+                <div class="product">
+                    <img src="download (6).jpeg" alt="Product 9">
+                    <h3>Complete drum pevey stands pack</h3>
+                    <p>we got you covered with all round drum stands.</p>
+                    <span class="price">ksh25,000</span>
+                    <input type="number" id="quantity8" name="quantity" min="1" value="1">
+                    <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                       <!-- product 10 -->
+                       <div class="product">
+                        <img src="download (7).jpeg" alt="Product 10">
+                        <h3>sony 18 channel mixer </h3>
+                        <p>slots for-jackpins,speakon and compatible with bluetoth 3.0.</p>
+                        <span class="price">ksh56,000</span>
+                        <input type="number" id="quantity9" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                           <!-- product 11 -->
+                <div class="product">
+                    <img src="download.png" alt="Product 11">
+                    <h3>microphone stand</h3>
+                    <p>adjustable microphone stand.</p>
+                    <span class="price">ksh1,200</span>
+                    <input type="number" id="quantity10" name="quantity" min="1" value="1">
+                    <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                </div>
+                       <!-- product 12 -->
+                       <div class="product">
+                        <img src="download (9).jpeg" alt="Product 12">
+                        <h3>TONOR wired jackpin mic</h3>
+                        <p>Tonor wired jackpin-mic(2-yrs warranty).</p>
+                        <span class="price">ksh3,000</span>
+                        <input type="number" id="quantity11" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                     <!-- products 13 -->
+                     <div class="product">
+                        <img src="download (14).jpeg" alt="Product 13">
+                        <h3>Jbl complete speaker sound system</h3>
+                        <p>Premium 22,24,28' speakers
+                            ,5-stands
+                            ,amplifier and mixer.</p>
+                        <span class="price">ksh 399,999</span>
+                        <input type="number" id="quantity12" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                     <!-- products 14 -->
+                     <div class="product">
+                        <img src="download (8).jpeg" alt="Product 14">
+                        <h3>yamaha loop machine</h3>
+                        <p>Premium wireless headphones with noise cancellation.</p>
+                        <span class="price">ksh12,000</span>
+                        <input type="number" id="quantity13" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                    <!-- product 15 -->
+                     <div class="product">
+                        <img src="download (10).jpeg" alt="Product 15">
+                        <h3>MECREE stage lights</h3>
+                        <p>multicoloured stage light.</p>
+                        <span class="price">ksh68,449</span>
+                        <input type="number" id="quantity14" name="quantity" min="1" value="1">
+                        <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                    </div>
+                    <!-- product 16 -->
+                       <div class="product">
+                         <img src="download (5).jpeg" alt="Product 16">
+                         <h3>piano footpedal</h3>                  
+                         <p>latest -234 footpedal with transpose.</p>
+                         <span class="price">ksh2,000</span>
+                         <input type="number" id="quantity15" name="quantity" min="1" value="1">
+                         <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                         </div>
+                   <!-- product 17 -->
+                    <div class="product">
+                     <img src="download.webp" alt="Product 17">
+                     <h3>4-piece drum tuming pegs</h3>
+                     <p>lost one no worries you've got 3 more(on offer).</p>
+                     <span class="price">ksh1,500</span>
+                     <input type="number" id="quantity19" name="quantity" min="1" value="1">
+                     <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+                        </div> 
+                  <!-- product 18 -->
+                   <div class="product">
+                 <img src="download (3).jpeg" alt="Product 18">
+                 <h3>LEAD / ACOUSTIC guitar strings</h3>
+                 <p>6 strings acoustic/lead guitar replacement strings.</p>
+                 <span class="price">ksh1,800</span>
+                 <input type="number" id="quantity20" name="quantity" min="1" value="1">
+                <button onclick="addToCart('Product Name', 10, document.getElementById('quantity').value)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Deems Music</h2>
+            <p>Deems Music x Electronics Shop has been providing top-quality musical instruments and electronics to customers for over 20 years.</p>
+            <p>Our mission is to inspire and empower musicians and enthusiasts by offering a wide selection of instruments, equipment, and expert advice.</p>
+            <a href="learnmore.html" class="btn">Learn More</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
